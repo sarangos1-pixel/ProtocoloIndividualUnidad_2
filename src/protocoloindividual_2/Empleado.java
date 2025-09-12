@@ -22,7 +22,7 @@ public class Empleado {
     }
     
     public void setSalario(int salario) {
-        if (salario <= 100){
+        if (salario >= 100){
             this.salario = salario;
         }else {
             System.out.println("El salario no puede ser menor que que 100");
